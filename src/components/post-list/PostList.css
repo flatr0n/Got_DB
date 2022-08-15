@@ -1,0 +1,23 @@
+.post-list {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 5px;
+	width: 40%;
+}
+
+.post-list__item {
+	background-color: rgb(90, 84, 84);
+	border: 1px solid black;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+}
+
+.post-list__item:last-child {
+	margin: 0px;
+}
+
+.post-list__item__title {
+	font-size: 20px;
+}
